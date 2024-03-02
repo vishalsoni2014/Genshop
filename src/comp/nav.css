@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.free{
+    padding: 10px 30px;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+.free .icon{
+    color: yellow;
+    font-size: 25px;
+}
+
+.free p{
+    margin-left: 10px;
+    color: floralwhite;
+    margin-top: 5px;
+}
+/* 
+.logo{
+    width: 30px;
+} */
+
+.main_header{
+    padding: 30px 40px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.main_header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_header .container .search-box{
+    margin-right: 30px;
+}
+
+.logo img{
+    width: 256px;
+}
+
+.main_header .container .search-box input{
+    outline: none;
+    padding: 7px 20px;
+    border: 3px solid #0989ff;
+    width: 300px;
+    color: #9a9a9a;
+}
+
+.main_header .container .search-box button{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background:#0989ff ;
+}
+
+.main_header .container .icon
+{
+display: flex;
+margin-right: 50px;
+}
+.main_header .container .icon .account
+{
+display: flex;
+margin-right: 30px;
+}
+.main_header .container .icon .account .user_icon
+{
+margin-right: 10px;
+font-size: 22px;
+color: #010f1c;
+cursor: pointer;
+}
+
+.main_header .container .icon .account p{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.second-icon{
+    display: flex;
+}
+.second-icon .link{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color:#0989ff ;
+}
+
+.header
+{
+width: 100%;
+padding: 20px 30px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header .container {
+display: flex;
+max-width: 100%;
+justify-content: space-between;
+}
+
+.header .container .nav ul{
+display: flex;
+}
+
+.header .container .nav ul li
+{
+margin-left: 20px; 
+list-style: none;
+}
+
+.header .container .nav ul li .link{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+.header .container .nav ul li .link:hover{
+    color: #0989ff;
+}
+
+.header .container .auth{
+   margin-right: 20px;
+   font-size: 22px;
+   cursor: pointer;
+}
+
+.header .container .auth button{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+ }
+ 
+
+
